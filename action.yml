@@ -75,6 +75,10 @@ inputs:
     description: |
       Working directory for the Vercel CLI
     required: false
+  FORCE:
+    description: |
+      Skip the vercel cache
+    required: false
 
 outputs:
   PREVIEW_URL:
